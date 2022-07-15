@@ -33,8 +33,8 @@ public class Wait_untill extends JFrame {
 	private static Connection conn;
 	DecimalFormat dFormat = new DecimalFormat("00");
 	static double x;
-	String nm[]=new String[9];
-	String fb[]=new String[9];
+	String[] nm=new String[9];
+	String[] fb=new String[9];
 	
 	/**
 	 * Launch the application.
