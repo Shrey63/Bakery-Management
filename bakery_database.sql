@@ -57,7 +57,7 @@ CREATE TABLE `cake_table` (
   `cake_customer_id` int(10) NOT NULL,
   `flavour` varchar(1000) NOT NULL,
   `weight` float NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -93,7 +93,7 @@ INSERT INTO `cake_table` (`cake_customer_id`, `flavour`, `weight`, `price`) VALU
 CREATE TABLE `choco_table` (
   `choco_customer_id` int(250) NOT NULL,
   `choco_type` varchar(100) NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -117,7 +117,7 @@ INSERT INTO `choco_table` (`choco_customer_id`, `choco_type`, `price`) VALUES
 CREATE TABLE `decorative_table` (
   `deco_customer_id` int(255) NOT NULL,
   `deco_item` varchar(100) NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -179,7 +179,7 @@ INSERT INTO `feedback_table` (`feedback_customer_id`, `cust_name`, `customer_fee
 CREATE TABLE `ice_table` (
   `ice_customer_id` int(250) NOT NULL,
   `ice_type` varchar(100) NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -242,7 +242,7 @@ INSERT INTO `main_table` (`customer_id`, `name`, `phone_no`, `total_amount`) VAL
 CREATE TABLE `pastry_table` (
   `pastry_customer_id` int(250) NOT NULL,
   `flavour` varchar(100) NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
