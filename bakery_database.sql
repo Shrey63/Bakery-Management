@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `bread_table` (
   `bread_customer_id` int(250) NOT NULL,
   `bread_type` varchar(100) NOT NULL,
-  `price` double(10,2) NOT NULL
+  `price` double(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
