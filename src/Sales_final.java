@@ -901,7 +901,7 @@ public class Sales_final extends JFrame {
 	}
 	public boolean validateLetters(String txt){
 		CharSequence inputStr = txt;
-	    Pattern pattern = Pattern.compile(new String ("^[a-zA-Z\\s]*$"));
+	    Pattern pattern = Pattern.compile("^[a-zA-Z\\s]*$");
 	    Matcher matcher = pattern.matcher(inputStr);
 	    if(!(matcher.matches()))
 	    {
@@ -918,7 +918,7 @@ public class Sales_final extends JFrame {
 	}
 	public void validateEmbellishment(String emb) {
 		CharSequence inputStr = emb;
-	    Pattern pattern = Pattern.compile(new String ("^[a-zA-Z\\s]*$"));
+	    Pattern pattern = Pattern.compile("^[a-zA-Z\\s]*$");
 	    Matcher matcher = pattern.matcher(inputStr);
 	    if(!(matcher.matches()))
 	    {
