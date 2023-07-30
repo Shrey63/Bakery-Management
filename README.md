@@ -1,5 +1,5 @@
 # Bakery-Management
-This is desktop application based on Java
+This is desktop application based on Java.
 	We have implemented an idea of managing a bakery  as whole and soul for the convenience of strict administrator and highly anticipated customer. 
 
 	To serve administrator efficiently we have developed the admin login page which is linked to home page with a button called ‘Admin login’. For resolving security we are verifying Admin name and Password before giving access to Admin Dashboard. If admin fails to login he wouldn’t  be given the control of Dashboard.
