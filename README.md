@@ -1,4 +1,4 @@
-# Bakery-Management
+# BakeMaster
 This is desktop application based on Java.
 	We have implemented an idea of managing a bakery  as whole and soul for the convenience of strict administrator and highly anticipated customer. 
 
